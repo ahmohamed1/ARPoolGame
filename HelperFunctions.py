@@ -93,6 +93,6 @@ def LoopFuntion():
 
 if __name__ == '__main__' :
     # LoopFuntion()
-    img = cv2.imread('../0.jpg')
+    img = cv2.imread('0.jpg')
     drawArgumentReality = DrawArgumentReality()
     drawArgumentReality.LoopFuntion(img)
